@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote  name="aicp"
+           fetch="git://github.com/"
+           review="gerrit.aicp-rom.com"
+           revision="refs/heads/q10.0"
+	   sync-j="8" />
+
+   <project path="test" name="Claymore1297/little_dirty_helpers" remote="aicp" revision="master" />
+
+
+</manifest>
